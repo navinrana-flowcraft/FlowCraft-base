@@ -1,27 +1,15 @@
-# local secrets + env
+# Local envs / caches / backups
 .env
 python-lab/.env
-
-# python
-__pycache__/
-*.pyc
-
-# virtualenvs
 venv/
 python-lab/venv/
-*.venv
-
-# backups & archives
+python-lab/backups/
+Backups/
+Backups*/
 *.tgz
-*.tar.gz
 *.zip
 *.bak
 *.fixbak
-
-# project backup folders
-python-lab/backups/
-python-lab.backup_*/
-
-# editor / OS
+__pycache__/
+*.pyc
 .vscode/
-.DS_Store
