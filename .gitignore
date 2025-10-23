@@ -1,0 +1,27 @@
+# local secrets + env
+.env
+python-lab/.env
+
+# python
+__pycache__/
+*.pyc
+
+# virtualenvs
+venv/
+python-lab/venv/
+*.venv
+
+# backups & archives
+*.tgz
+*.tar.gz
+*.zip
+*.bak
+*.fixbak
+
+# project backup folders
+python-lab/backups/
+python-lab.backup_*/
+
+# editor / OS
+.vscode/
+.DS_Store
